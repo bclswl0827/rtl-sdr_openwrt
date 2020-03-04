@@ -27,13 +27,14 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
 define Package/rtl-sdr/Default
-  TITLE:=Software Defined Radio with Realtek RTL2832U, which support rtl_sdr and rtl_tcp direct sampling from I/Q branch.
+  TITLE:=Software Defined Radio with Realtek RTL2832U.
   URL:=https://github.com/bclswl0827/rtl-sdr
 endef
 
 define Package/rtl-sdr/Default/description
   rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
-  an inexpensive SDR.
+  an inexpensive SDR, which support rtl_sdr and rtl_tcp direct sampling
+  from I/Q branch.
 endef
 
 define Package/rtl-sdr
