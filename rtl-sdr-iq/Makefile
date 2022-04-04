@@ -7,13 +7,12 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=rtl-sdr
+PKG_NAME:=rtl-sdr-iq
 PKG_VERSION:=0.6.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/bclswl0827/rtl-sdr/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=4fe53d7c168a4a631cedd2436d6d773288f244cf3cd4720d22f70a07ba45439b
 
 PKG_BUILD_PARALLEL:=1
 CMAKE_INSTALL:=1
